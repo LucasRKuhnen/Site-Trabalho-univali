@@ -49,30 +49,38 @@ li a:hover {
     
 }
 
-.Conteudo {
-   
-    max-height: 470px;
-    max-width: 1000px;
-    margin: 60px, 100px;
-    padding: 40px;
+.container {
+    background-color: white;
+    height: 800px;
+    max-height: 400px;
+    width: 800px;
+    max-width: 600px;
+    margin: 100px 100px;
     display: flex;
-    background-color: #822525;
-    align-items: center;
-    justify-content: center;
+    padding: 40px;
     margin: 100px;
     align-self: center;
+    display: flex;
 }
 
-.imagem {
-    padding: 20px;
+
+.informacoesContato {
+    padding: 25px;
+    align-items: center;
+    
 }
 
-.texto {
-    color: #e1d09c;
+.informacoesContato a {
+    text-decoration: none;
+    color: black;
     font-weight: bold;
-    padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
 }
+
+.informacoesContato a:hover {
+    color: #822525;
+}
+
 
 footer {
     background-color: #822525;
