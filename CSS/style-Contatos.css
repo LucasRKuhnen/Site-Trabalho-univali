@@ -49,36 +49,16 @@ li a:hover {
     
 }
 
-.container {
-    background-color: white;
-    height: 800px;
-    max-height: 400px;
-    width: 800px;
-    max-width: 600px;
-    margin: 100px 100px;
-    display: flex;
-    padding: 40px;
-    margin: 100px;
-    align-self: center;
-    display: flex;
-}
-
-
 .informacoesContato {
-    padding: 25px;
-    align-items: center;
-    
+    background-color: #822525;
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
 }
 
-.informacoesContato a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.informacoesContato a:hover {
-    color: #822525;
+.titulo {
+    color: #e1d09c;
+    font-weight: 500;
 }
 
 
