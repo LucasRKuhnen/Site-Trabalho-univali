@@ -13,6 +13,9 @@ body {
     box-sizing: border-box;
     font-family: "STIX Two Text", serif;
 }
+
+/* Cabeçalho */
+
 .navbar {
     background-color: #822525;
     padding-right: 15px;
@@ -30,37 +33,82 @@ body {
 }
 
 
-li {
+.navdiv li {
     list-style: none;
     display: inline-block;
 
 }
 
-li a {
+.navdiv li a {
     color: #e1d09c;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: bold;
     margin-right: 50px;
     text-decoration: none;
 }
 
-li a:hover {
+.navdiv li a:hover {
     color: white;
     
 }
 
-.informacoesContato {
-    background-color: #822525;
-    position: relative;
-    width: 100%;
-    padding: 40px 100px;
+/* Corpo página */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.titulo {
-    color: #e1d09c;
-    font-weight: 500;
+.contact-info {
+    flex: 1;
+    padding: 20px;
 }
 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-info ul li img {
+    margin-right: 15px;
+}
+
+.contact-info ul li span {
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #822525;
+}
+
+.map-container {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Rodapé */
 
 footer {
     background-color: #822525;
