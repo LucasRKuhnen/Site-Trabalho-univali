@@ -13,9 +13,6 @@ body {
     box-sizing: border-box;
     font-family: "STIX Two Text", serif;
 }
-
-/* Cabeçalho */
-
 .navbar {
     background-color: #822525;
     padding-right: 15px;
@@ -33,13 +30,13 @@ body {
 }
 
 
-.navdiv li {
+li {
     list-style: none;
     display: inline-block;
 
 }
 
-.navdiv li a {
+li a {
     color: #e1d09c;
     font-size: 20px;
     font-weight: bold;
@@ -47,65 +44,38 @@ body {
     text-decoration: none;
 }
 
-.navdiv li a:hover {
+li a:hover {
     color: white;
     
 }
 
-/* Corpo página */
-
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 20px auto;
-    background-color: white;
+.container-sobre {
+    background-color: #822525;
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
 }
 
-.contact-info {
-    padding: 20px;
+.container-sobre h1 {
+    margin: 20px;
 }
 
-.contact-info h2 {
+.container-sobre p {
+    font-size: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-indent: 30px;
+   
+}
+
+.container-sobre p:last-child {
     margin-bottom: 20px;
-
 }
 
-.contact-info ul {
-    list-style: none;
-}
 
-.contact-info ul li {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-}
 
-.contact-info ul li img {
-    margin-right: 15px;
-}
-
-.contact-info ul li .contact-links {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-info a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contact-info a:hover {
-    color: #822525;
-}
-
-.map-container {
-    padding: 20px;
-}
-
-/* Rodapé */
 
 footer {
     background-color: #822525;
