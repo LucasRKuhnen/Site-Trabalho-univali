@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+
+body {
+    background-color: #e1d09c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #822525;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+
+.navdiv {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+li a {
+    color: #e1d09c;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+
+}
+
+footer {
+    background-color: #822525;
+    margin-top: auto;
+
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 20px 30px 20px;
+
+}
+
+.fotterLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.footerBottom {
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    color: #e1d09c;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.fotodoproduto {  
+    color: black;
+    background-color: white;
+    margin-top: 40px;
+    
+    width: 400px;
+    height: 410px;
+}
+.foto   {
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+
+}
+.espaçoentreprodutos    {
+    display: flex;
+    justify-content: center;
+}
+.descriçaodoproduto {
+    color: white;
+    background-color: #822525;
+    margin-top: 40px;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    
+
+}
+
+.descriçao  {
+    color: white;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: "STIX Two Text", serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.espaçodepreçosequantidade  {
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #822525;
+    height: 80px;
+    width: 400px;
+}
+.preço  {
+    margin-left: 40px;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.estoque    {
+    margin-right: 40px;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+
+}
+.opçaodecompra  {
+    color: black;
+    background-color: white;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opçaodepagamento a:hover {
+    text-decoration:underline;
+}
+
+.opçaodepagamento a {
+    text-decoration: none;
+}
+.opçaodepagamento   { 
+    justify-content: space-between;
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+}
+.credito    {
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+    color: #822525;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.debito {
+    width: 100px;
+    height: 50px;
+    color: #822525;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pix    {
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    color: #822525;
+    font-family: "STIX Two Text", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.espaçodebaixo  {
+  margin-top: 40px;
+
+}
